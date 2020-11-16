@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name custom_components)(type Legacy)(uri ${KIPRJMOD}/custom_components.lib)(options "")(descr ""))
+  (lib (name nano-rescue)(type Legacy)(uri "C:/Users/zachary.morris/Desktop/Documentation/I.MX 6ULL/nanoberry-master/kicad/nano-rescue.lib")(options "")(descr ""))
+)
