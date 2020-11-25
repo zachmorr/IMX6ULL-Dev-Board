@@ -1,0 +1,239 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L custom_components:IMX6UL_BGA289 U?
+U 5 1 5FC1EF28
+P 9650 1350
+AR Path="/5FD79E88/5FC1EF28" Ref="U?"  Part="5" 
+AR Path="/5FC11E82/5FC1EF28" Ref="U1"  Part="5" 
+F 0 "U1" H 9650 1537 60  0000 C CNN
+F 1 "IMX6UL_BGA289" H 9650 1431 60  0000 C CNN
+F 2 "Custom Components:IMX6UL_BGA289" H 11250 -550 60  0001 C CNN
+F 3 "" H 11250 -550 60  0001 C CNN
+	5    9650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_components:IMX6UL_BGA289 U?
+U 9 1 5FC1EF2E
+P 9500 3400
+AR Path="/5FD79E88/5FC1EF2E" Ref="U?"  Part="9" 
+AR Path="/5FC11E82/5FC1EF2E" Ref="U1"  Part="9" 
+F 0 "U1" H 9500 3587 60  0000 C CNN
+F 1 "IMX6UL_BGA289" H 9500 3481 60  0000 C CNN
+F 2 "Custom Components:IMX6UL_BGA289" H 11100 1500 60  0001 C CNN
+F 3 "" H 11100 1500 60  0001 C CNN
+	9    9500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC1EF34
+P 8900 1550
+AR Path="/5FD79E88/5FC1EF34" Ref="#PWR?"  Part="1" 
+AR Path="/5FC11E82/5FC1EF34" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 8900 1400 50  0001 C CNN
+F 1 "+3.3V" H 8915 1723 50  0000 C CNN
+F 2 "" H 8900 1550 50  0001 C CNN
+F 3 "" H 8900 1550 50  0001 C CNN
+	1    8900 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1600 8900 1550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC1EF3B
+P 8550 3600
+AR Path="/5FD79E88/5FC1EF3B" Ref="#PWR?"  Part="1" 
+AR Path="/5FC11E82/5FC1EF3B" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 8550 3450 50  0001 C CNN
+F 1 "+3.3V" H 8565 3773 50  0000 C CNN
+F 2 "" H 8550 3600 50  0001 C CNN
+F 3 "" H 8550 3600 50  0001 C CNN
+	1    8550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3650 8550 3600
+Wire Wire Line
+	8900 1600 8950 1600
+Text Notes 8550 1250 0    50   ~ 0
+Shares decoupling \nwith SOC_IN\n
+Wire Wire Line
+	8550 3650 8600 3650
+$Comp
+L custom_components:IMX6UL_BGA289 U?
+U 4 1 5FC4CC87
+P 4400 1350
+AR Path="/5FD79E88/5FC4CC87" Ref="U?"  Part="4" 
+AR Path="/5FC11E82/5FC4CC87" Ref="U1"  Part="4" 
+F 0 "U1" H 4425 1537 60  0000 C CNN
+F 1 "IMX6UL_BGA289" H 4425 1431 60  0000 C CNN
+F 2 "Custom Components:IMX6UL_BGA289" H 6000 -550 60  0001 C CNN
+F 3 "" H 6000 -550 60  0001 C CNN
+	4    4400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_components:IMX6UL_BGA289 U?
+U 7 1 5FC4CC8D
+P 5700 3200
+AR Path="/5FD79E88/5FC4CC8D" Ref="U?"  Part="7" 
+AR Path="/5FC11E82/5FC4CC8D" Ref="U1"  Part="7" 
+F 0 "U1" H 5725 3387 60  0000 C CNN
+F 1 "IMX6UL_BGA289" H 5725 3281 60  0000 C CNN
+F 2 "Custom Components:IMX6UL_BGA289" H 7300 1300 60  0001 C CNN
+F 3 "" H 7300 1300 60  0001 C CNN
+	7    5700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC4CC93
+P 5900 1500
+AR Path="/5FD79E88/5FC4CC93" Ref="#PWR?"  Part="1" 
+AR Path="/5FC11E82/5FC4CC93" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 5900 1350 50  0001 C CNN
+F 1 "+3.3V" H 5915 1673 50  0000 C CNN
+F 2 "" H 5900 1500 50  0001 C CNN
+F 3 "" H 5900 1500 50  0001 C CNN
+	1    5900 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1550 5900 1500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC4CC9A
+P 3650 1550
+AR Path="/5FD79E88/5FC4CC9A" Ref="#PWR?"  Part="1" 
+AR Path="/5FC11E82/5FC4CC9A" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 3650 1400 50  0001 C CNN
+F 1 "+3.3V" H 3665 1723 50  0000 C CNN
+F 2 "" H 3650 1550 50  0001 C CNN
+F 3 "" H 3650 1550 50  0001 C CNN
+	1    3650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1600 3650 1550
+NoConn ~ 5150 1600
+NoConn ~ 5150 1700
+NoConn ~ 5150 1800
+NoConn ~ 5150 1900
+NoConn ~ 5150 2000
+NoConn ~ 5150 2100
+NoConn ~ 5150 2200
+NoConn ~ 5150 2300
+NoConn ~ 5150 2500
+NoConn ~ 5150 2600
+NoConn ~ 5150 2700
+NoConn ~ 5150 2800
+Wire Wire Line
+	5900 1550 5950 1550
+Wire Wire Line
+	3650 1600 3700 1600
+NoConn ~ 5950 2550
+NoConn ~ 5950 2450
+NoConn ~ 5950 2350
+NoConn ~ 5950 2250
+NoConn ~ 5950 2150
+NoConn ~ 5950 2050
+NoConn ~ 5950 1950
+NoConn ~ 5950 1850
+NoConn ~ 5950 1750
+NoConn ~ 7650 1750
+NoConn ~ 7650 1850
+NoConn ~ 7650 1950
+NoConn ~ 7650 2050
+NoConn ~ 7650 2150
+NoConn ~ 7650 2250
+NoConn ~ 7650 2350
+NoConn ~ 7650 2450
+$Comp
+L custom_components:IMX6UL_BGA289 U?
+U 3 1 5FC4CCC0
+P 6800 1300
+AR Path="/5FD79E88/5FC4CCC0" Ref="U?"  Part="3" 
+AR Path="/5FC11E82/5FC4CCC0" Ref="U1"  Part="3" 
+F 0 "U1" H 6800 1487 60  0000 C CNN
+F 1 "IMX6UL_BGA289" H 6800 1381 60  0000 C CNN
+F 2 "Custom Components:IMX6UL_BGA289" H 8400 -600 60  0001 C CNN
+F 3 "" H 8400 -600 60  0001 C CNN
+	3    6800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_components:IMX6UL_BGA289 U?
+U 6 1 5FC580B5
+P 2000 1700
+AR Path="/5FD79E88/5FC580B5" Ref="U?"  Part="6" 
+AR Path="/5FC11E82/5FC580B5" Ref="U1"  Part="6" 
+F 0 "U1" H 2000 1887 60  0000 C CNN
+F 1 "IMX6UL_BGA289" H 2000 1781 60  0000 C CNN
+F 2 "Custom Components:IMX6UL_BGA289" H 3600 -200 60  0001 C CNN
+F 3 "" H 3600 -200 60  0001 C CNN
+	6    2000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC580BB
+P 1100 1900
+AR Path="/5FD79E88/5FC580BB" Ref="#PWR?"  Part="1" 
+AR Path="/5FC11E82/5FC580BB" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 1100 1750 50  0001 C CNN
+F 1 "+3.3V" H 1115 2073 50  0000 C CNN
+F 2 "" H 1100 1900 50  0001 C CNN
+F 3 "" H 1100 1900 50  0001 C CNN
+	1    1100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1950 1100 1900
+NoConn ~ 2850 1950
+NoConn ~ 2850 2050
+NoConn ~ 2850 2150
+NoConn ~ 2850 2250
+NoConn ~ 2850 2350
+NoConn ~ 2850 2450
+NoConn ~ 2850 2550
+NoConn ~ 2850 2650
+NoConn ~ 2850 2750
+NoConn ~ 2850 2850
+NoConn ~ 2850 2950
+NoConn ~ 2850 3050
+NoConn ~ 2850 3150
+NoConn ~ 2850 3250
+NoConn ~ 2850 3350
+NoConn ~ 2850 3450
+NoConn ~ 1150 3450
+NoConn ~ 1150 3350
+NoConn ~ 1150 3250
+NoConn ~ 1150 3150
+NoConn ~ 1150 3050
+NoConn ~ 1150 2950
+NoConn ~ 1150 2850
+NoConn ~ 1150 2750
+NoConn ~ 1150 2550
+NoConn ~ 1150 2450
+NoConn ~ 1150 2350
+NoConn ~ 1150 2250
+NoConn ~ 1150 2150
+Wire Wire Line
+	1100 1950 1150 1950
+$EndSCHEMATC
