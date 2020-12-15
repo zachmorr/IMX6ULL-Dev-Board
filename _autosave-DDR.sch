@@ -264,9 +264,11 @@ $EndComp
 Text Notes 5350 1850 0    39   ~ 0
 CLK Termination\nClose to DDR3 chip
 $Comp
-L nano-rescue:CP1 C46
+L Keychain-rescue:CP1-nano-rescue C46
 U 1 1 5B4BB0CD
 P 9700 2500
+AR Path="/5B4BB0CD" Ref="C46"  Part="1" 
+AR Path="/5FCA9377/5B4BB0CD" Ref="C46"  Part="1" 
 F 0 "C46" H 9725 2600 50  0000 L CNN
 F 1 "2.2pF" H 9725 2400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9700 2500 50  0001 C CNN
@@ -278,9 +280,11 @@ F 6 "C1559" H 9700 2500 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L nano-rescue:CP1 C47
+L Keychain-rescue:CP1-nano-rescue C47
 U 1 1 5B4BB270
 P 9700 2950
+AR Path="/5B4BB270" Ref="C47"  Part="1" 
+AR Path="/5FCA9377/5B4BB270" Ref="C47"  Part="1" 
 F 0 "C47" H 9725 3050 50  0000 L CNN
 F 1 "2.2pF" H 9725 2850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9700 2950 50  0001 C CNN
