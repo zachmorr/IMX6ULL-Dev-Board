@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.7)-1"
     },
-    "CreationDate":  "2020-12-15T14:41:59-08:00"
+    "CreationDate":  "2021-05-14T12:52:34-07:00"
   },
   "GeneralSpecs":
   {
@@ -19,8 +19,8 @@
     },
     "Size":
     {
-      "X": 53.050,
-      "Y": 47.050
+      "X": 48.575,
+      "Y": 40.175
     },
     "LayerNumber": 4,
     "BoardThickness":  1.600
@@ -32,7 +32,7 @@
       "PadToPad":  0.127,
       "PadToTrack":  0.127,
       "TrackToTrack":  0.127,
-      "MinLineWidth":  0.127,
+      "MinLineWidth":  0.100,
       "TrackToRegion":  0.127,
       "RegionToRegion":  0.127
     },
@@ -48,22 +48,22 @@
   "FilesAttributes":
   [
     {
-      "Path":  "Keychain-Front.gbr",
+      "Path":  "Keychain-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Keychain-GND.gbr",
+      "Path":  "Keychain-In1_Cu.gbr",
       "FileFunction":  "Copper,L2,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Keychain-PWR.gbr",
+      "Path":  "Keychain-In2_Cu.gbr",
       "FileFunction":  "Copper,L3,Inr",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Keychain-Bottom.gbr",
+      "Path":  "Keychain-B_Cu.gbr",
       "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
@@ -119,7 +119,7 @@
     },
     {
       "Type":  "Copper",
-      "Notes":  "Layer Front"
+      "Notes":  "Layer F.Cu"
     },
     {
       "Type":  "Dielectric",
@@ -128,7 +128,7 @@
     },
     {
       "Type":  "Copper",
-      "Notes":  "Layer GND"
+      "Notes":  "Layer In1.Cu"
     },
     {
       "Type":  "Dielectric",
@@ -137,7 +137,7 @@
     },
     {
       "Type":  "Copper",
-      "Notes":  "Layer PWR"
+      "Notes":  "Layer In2.Cu"
     },
     {
       "Type":  "Dielectric",
@@ -146,7 +146,7 @@
     },
     {
       "Type":  "Copper",
-      "Notes":  "Layer Bottom"
+      "Notes":  "Layer B.Cu"
     },
     {
       "Type":  "SolderMask",
